@@ -9,7 +9,7 @@
 </head>
 <body>
 	<c:if test="${ empty authUser }">
-		<c:url var="url" value="/join"></c:url>
+		<c:url var="url" value="/joinForm.jsp"></c:url>
 		<a href="${ url }">회원가입</a>
 		<c:url var="url2" value="/login"></c:url>
 		<a href="${ url2 }">로그인 하기</a>

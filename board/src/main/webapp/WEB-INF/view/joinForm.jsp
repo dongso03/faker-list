@@ -8,7 +8,7 @@
 <title>가입</title>
 </head>
 <body>
-	<form action="/member/JoinHandler.java" method="post">
+	<form action="/member/JoinServlet.java" method="post">
 		<p>
 			아이디 : <br /> <input type="text" name="id" value="${ param.id}">
 			<c:if test="${ errors.id }">ID를 입력하세요</c:if>

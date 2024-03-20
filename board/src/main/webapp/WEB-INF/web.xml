@@ -21,15 +21,14 @@
  	<listener-class>mylistener.MyWebContextListener</listener-class>
  </listener>
  
- <servlet>
-    <servlet-name>JoinHandler</servlet-name>
-    <servlet-class>member.JoinHandler</servlet-class>
+<servlet>
+    <servlet-name>JoinServlet</servlet-name>
+    <jsp-file>/WEB-INF/view/joinForm.jsp</jsp-file>
 </servlet>
 <servlet-mapping>
-    <servlet-name>JoinHandler</servlet-name>
-    <url-pattern>/join</url-pattern>
+    <servlet-name>JoinServlet</servlet-name>
+    <url-pattern>/joinForm</url-pattern>
 </servlet-mapping>
- 
  
  <context-param>
  	<param-name>poolConfig</param-name>
